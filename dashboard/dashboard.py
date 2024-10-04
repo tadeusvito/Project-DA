@@ -67,11 +67,11 @@ with col1:
     st.subheader("Data yang sudah bersih")
 
     with st.expander('Lihat Data day.csv'):
-        day_df = pd.read_csv('day.csv')
+        day_df = pd.read_csv('dashboard/day.csv')
         st.dataframe(day_df, height=150)
     
     with st.expander('Lihat Data hour.csv'):
-        hour_df = pd.read_csv('hour.csv')
+        hour_df = pd.read_csv('dashboard/hour.csv')
         st.dataframe(hour_df, height=150)
 
 # Question and Visualization Section in the second column
