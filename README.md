@@ -1,7 +1,7 @@
 ### Customer Purchase Analysis Dashboard ✨
 
 ## Setup Environment - Shell/Terminal
-mkdir proyek_analisis_data
+mkdir proyek_analisis_data \n
 cd proyek_analisis_data
 pipenv install
 pipenv shell
