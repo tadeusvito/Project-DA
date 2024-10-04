@@ -2,15 +2,15 @@
 
 ## Setup Environment - Shell/Terminal <br>
 ```
-mkdir proyek_analisis_data<br>
-cd proyek_analisis_data<br>
-pipenv install<br>
-pipenv shell<br>
-pip install -r requirements.txt<br>
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
 ```
 
 ## Run steamlit app
 ```
-cd dashboard<br>
-streamlit run dashboard.py<br>
+cd dashboard
+streamlit run dashboard.py
 ```
