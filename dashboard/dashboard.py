@@ -31,6 +31,7 @@ def plot_rental_pattern(df):
 st.set_page_config(layout="wide", page_title="Data Analyst Bike Dataset")
 
 # Custom CSS for styling
+# Custom CSS for styling
 st.markdown(""" 
     <style>
     /* General Layout */
@@ -40,11 +41,14 @@ st.markdown("""
     }
     /* Header styling */
     .stApp h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2.5rem;
-        color: #264653;
+        font-family: 'Arial', sans-serif; /* Changed to Arial */
+        font-size: 3rem; /* Increased font size */
+        color: #2a9d8f; /* Changed header color */
         text-align: center;
-        margin-top: 20px;
+        margin-top: 40px; /* Increased top margin */
+        padding: 20px; /* Added padding around the header */
+        background-color: #264653; /* Dark background for header */
+        border-radius: 8px; /* Rounded corners for header */
     }
     /* Custom Info box */
     .stAlert {
@@ -77,6 +81,7 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
+
 
 st.title("🚲 Data Analyst Bike Sharing Dataset")
 
